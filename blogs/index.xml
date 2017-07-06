@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Yameng Liu&#39;s Blog</title>
+    <link>http://ameng.github.io/blogs/</link>
+    <description>Recent content in Blogs on Yameng Liu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Feb 2017 16:56:04 +0800</lastBuildDate>
+    
+	<atom:link href="http://ameng.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My blog pages</title>
+      <link>http://ameng.github.io/blogs/my-blogs/</link>
+      <pubDate>Wed, 22 Feb 2017 16:56:04 +0800</pubDate>
+      
+      <guid>http://ameng.github.io/blogs/my-blogs/</guid>
+      <description> My blogs  001 blog 002 blog  </description>
+    </item>
+    
+  </channel>
+</rss>
