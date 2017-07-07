@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://forrestliu.github.io/about/</loc>
+    <loc>http://forrestliu.github.io/thinks/about/</loc>
     <lastmod>2017-03-18T20:53:54+08:00</lastmod>
   </url>
   
@@ -60,6 +60,12 @@
   <url>
     <loc>http://forrestliu.github.io/talks/</loc>
     <lastmod>2017-03-17T22:08:25+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://forrestliu.github.io/thinks/</loc>
+    <lastmod>2017-03-18T20:53:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
