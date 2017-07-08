@@ -13,19 +13,19 @@
     
     <item>
       <title>About Yameng Liu</title>
-      <link>http://forrestliu.github.io/thinks/about/</link>
+      <link>http://forrestliu.github.io/life/about/</link>
       <pubDate>Sat, 18 Mar 2017 20:53:54 +0800</pubDate>
       
-      <guid>http://forrestliu.github.io/thinks/about/</guid>
+      <guid>http://forrestliu.github.io/life/about/</guid>
       <description> About me  Yameng Liu ShenZhen, Guangdong, China 65827698@qq.com Wechat: ameng2001  </description>
     </item>
     
     <item>
       <title>格式记录</title>
-      <link>http://forrestliu.github.io/talks/building-github-pages-with-hugo/</link>
+      <link>http://forrestliu.github.io/talk/building-github-pages-with-hugo/</link>
       <pubDate>Fri, 17 Mar 2017 22:08:25 +0800</pubDate>
       
-      <guid>http://forrestliu.github.io/talks/building-github-pages-with-hugo/</guid>
+      <guid>http://forrestliu.github.io/talk/building-github-pages-with-hugo/</guid>
       <description>（题图：澳大利亚 Jan 10,2017）
  这是一种字体另一种字体
  第一节 普通字体：
@@ -45,19 +45,19 @@ $ this is code  这是题目
     
     <item>
       <title>这是一些动手的项目</title>
-      <link>http://forrestliu.github.io/projects/my-github-pages/</link>
+      <link>http://forrestliu.github.io/demo/my-github-pages/</link>
       <pubDate>Wed, 22 Feb 2017 16:56:04 +0800</pubDate>
       
-      <guid>http://forrestliu.github.io/projects/my-github-pages/</guid>
+      <guid>http://forrestliu.github.io/demo/my-github-pages/</guid>
       <description> 这是一些动手的项目  博客 - personal blog.  </description>
     </item>
     
     <item>
       <title>这是技术博客</title>
-      <link>http://forrestliu.github.io/blogs/my-blogs/</link>
+      <link>http://forrestliu.github.io/technique/my-blogs/</link>
       <pubDate>Wed, 22 Feb 2017 16:56:04 +0800</pubDate>
       
-      <guid>http://forrestliu.github.io/blogs/my-blogs/</guid>
+      <guid>http://forrestliu.github.io/technique/my-blogs/</guid>
       <description> 技术博客汇总  001 这是技术博客  </description>
     </item>
     

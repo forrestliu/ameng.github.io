@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://forrestliu.github.io/thinks/about/</loc>
+    <loc>http://forrestliu.github.io/life/about/</loc>
     <lastmod>2017-03-18T20:53:54+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://forrestliu.github.io/talks/building-github-pages-with-hugo/</loc>
+    <loc>http://forrestliu.github.io/talk/building-github-pages-with-hugo/</loc>
     <lastmod>2017-03-17T22:08:25+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://forrestliu.github.io/projects/my-github-pages/</loc>
+    <loc>http://forrestliu.github.io/demo/my-github-pages/</loc>
     <lastmod>2017-02-22T16:56:04+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://forrestliu.github.io/blogs/my-blogs/</loc>
+    <loc>http://forrestliu.github.io/technique/my-blogs/</loc>
     <lastmod>2017-02-22T16:56:04+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://forrestliu.github.io/blogs/</loc>
-    <lastmod>2017-02-22T16:56:04+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>http://forrestliu.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://forrestliu.github.io/demo/</loc>
+    <lastmod>2017-02-22T16:56:04+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,8 +46,8 @@
   </url>
   
   <url>
-    <loc>http://forrestliu.github.io/projects/</loc>
-    <lastmod>2017-02-22T16:56:04+08:00</lastmod>
+    <loc>http://forrestliu.github.io/life/</loc>
+    <lastmod>2017-03-18T20:53:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,14 +58,14 @@
   </url>
   
   <url>
-    <loc>http://forrestliu.github.io/talks/</loc>
+    <loc>http://forrestliu.github.io/talk/</loc>
     <lastmod>2017-03-17T22:08:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://forrestliu.github.io/thinks/</loc>
-    <lastmod>2017-03-18T20:53:54+08:00</lastmod>
+    <loc>http://forrestliu.github.io/technique/</loc>
+    <lastmod>2017-02-22T16:56:04+08:00</lastmod>
     <priority>0</priority>
   </url>
   

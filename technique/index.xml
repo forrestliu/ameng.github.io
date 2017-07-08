@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techniques on Yameng Liu&#39;s Blog</title>
+    <link>http://forrestliu.github.io/technique/</link>
+    <description>Recent content in Techniques on Yameng Liu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Feb 2017 16:56:04 +0800</lastBuildDate>
+    
+	<atom:link href="http://forrestliu.github.io/technique/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>这是技术博客</title>
+      <link>http://forrestliu.github.io/technique/my-blogs/</link>
+      <pubDate>Wed, 22 Feb 2017 16:56:04 +0800</pubDate>
+      
+      <guid>http://forrestliu.github.io/technique/my-blogs/</guid>
+      <description> 技术博客汇总  001 这是技术博客  </description>
+    </item>
+    
+  </channel>
+</rss>
