@@ -11,22 +11,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="keywords" content="">
+<meta name="keywords" content="architecture, server, socket, develop, ">
 
  
 <meta property="og:type" content="article"/>
 <meta property="og:description" content=""/>
-<meta property="og:title" content="Tags : forrestliu.github.io"/>
+<meta property="og:title" content="架构培训系列001-高性能服务开发 : forrestliu.github.io"/>
 <meta property="og:site_name" content="forrestliu is Yameng Liu"/>
 <meta property="og:image" content="" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="" />
 <meta property="og:image:height" content="" />
-<meta property="og:url" content="http://forrestliu.github.io/tags/">
+<meta property="og:url" content="http://forrestliu.github.io/talk/arch-seris-001/">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2017-07-08"/>
 <meta property="article:modified_time" content="2017-07-08"/>
 
+
+
+<meta property="article:tag" content="architecture">
+<meta property="article:tag" content="server">
+<meta property="article:tag" content="socket">
+<meta property="article:tag" content="develop">
 
 
 
@@ -34,15 +40,15 @@
 <meta name="twitter:card" content="summary">
 
 <meta name="twitter:site" content="@ameng20001">
-<meta name="twitter:title" content="Tags : forrestliu.github.io">
+<meta name="twitter:title" content="架构培训系列001-高性能服务开发 : forrestliu.github.io">
 <meta name="twitter:creator" content="@ameng20001">
 <meta name="twitter:description" content="">
 <meta name="twitter:image:src" content="">
 <meta name="twitter:domain" content="forrestliu.github.io">
 
     <base href="http://forrestliu.github.io/">
-    <title> Tags - Yameng Liu </title>
-    <link rel="canonical" href="http://forrestliu.github.io/tags/">
+    <title> 架构培训系列001-高性能服务开发 - Yameng Liu </title>
+    <link rel="canonical" href="http://forrestliu.github.io/talk/arch-seris-001/">
 
     
 
@@ -86,7 +92,7 @@
     <script type="text/javascript" src="http://tajs.qq.com/stats?sId=62930148" charset="UTF-8"></script>
 </head>
 
-<body lang="en">
+<body lang="en" itemscope itemtype="http://schema.org/Article">
 <header id="header">
     <figure>
       <a href="/" border=0 id="logolink"><div class="icon-octocat" id="logo"> </div></a>
@@ -126,12 +132,12 @@
                 <span class="title"> share </span>
                 <div class="dropdown share">
                     <ul class="social">
-                      <li> <a href="https://twitter.com/intent/tweet?status=Tags-http%3a%2f%2fforrestliu.github.io%2ftags%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
-                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fforrestliu.github.io%2ftags%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
-                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2fforrestliu.github.io%2ftags%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
-                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fforrestliu.github.io%2ftags%2f&title=Tags&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
-                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2fforrestliu.github.io%2ftags%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
-                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2fforrestliu.github.io%2ftags%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                      <li> <a href="https://twitter.com/intent/tweet?status=%e6%9e%b6%e6%9e%84%e5%9f%b9%e8%ae%ad%e7%b3%bb%e5%88%97001-%e9%ab%98%e6%80%a7%e8%83%bd%e6%9c%8d%e5%8a%a1%e5%bc%80%e5%8f%91-http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-001%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-001%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-001%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-001%2f&title=%e6%9e%b6%e6%9e%84%e5%9f%b9%e8%ae%ad%e7%b3%bb%e5%88%97001-%e9%ab%98%e6%80%a7%e8%83%bd%e6%9c%8d%e5%8a%a1%e5%bc%80%e5%8f%91&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-001%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-001%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
                     </ul>
                     <span class="subcount">sharing is caring</span>
                 </div>s
@@ -156,31 +162,98 @@
 </header>
 
 
+
 <section id="main">
+  <h1 itemprop="name" id="title">架构培训系列001-高性能服务开发</h1>
   <div>
-   <h1 id="title">Tags</h1>
-   
-    
-    <h2><a href="tags/architecture"> architecture </a> 1 </h2>
-    
-    <h2><a href="tags/develop"> develop </a> 1 </h2>
-    
-    <h2><a href="tags/github"> github </a> 1 </h2>
-    
-    <h2><a href="tags/hugo"> hugo </a> 1 </h2>
-    
-    <h2><a href="tags/server"> server </a> 1 </h2>
-    
-    <h2><a href="tags/socket"> socket </a> 1 </h2>
-    
-    <h2><a href="tags/travel"> travel </a> 1 </h2>
-    
-    <h2><a href="tags/web"> web </a> 1 </h2>
-    
+        <article itemprop="articleBody" id="content">
+           <blockquote>
+<p>架构培训系列课件，总共有四课：</p>
+
+<p>第一课，高性能服务开发</p>
+
+<p>第二课，服务框架及分布式原理</p>
+
+<p>第三课，云计算及微服务架构</p>
+
+<p>第四课，分组讨论</p>
+
+<p>以下为第一课内容：</p>
+</blockquote>
+
+<p>​                        《高性能服务开发》</p>
+
+<p><img src="http://osrjkumus.bkt.clouddn.com/arch-001/%E5%B9%BB%E7%81%AF%E7%89%8701.jpg" alt="sliceimg" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-001/%E5%B9%BB%E7%81%AF%E7%89%8702.jpg" alt="sliceimg" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-001/%E5%B9%BB%E7%81%AF%E7%89%8703.jpg" alt="sliceimg" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-001/%E5%B9%BB%E7%81%AF%E7%89%8704.jpg" alt="sliceimg" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-001/%E5%B9%BB%E7%81%AF%E7%89%8705.jpg" alt="sliceimg" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-001/%E5%B9%BB%E7%81%AF%E7%89%8706.jpg" alt="sliceimg" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-001/%E5%B9%BB%E7%81%AF%E7%89%8707.jpg" alt="sliceimg" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-001/%E5%B9%BB%E7%81%AF%E7%89%8708.jpg" alt="sliceimg" /></p>
+
+        </article>
   </div>
 </section>
 
-<aside id="meta"> </aside>
+
+
+<aside id="meta">
+
+<div>
+    <section id="datecount">
+        <h4 id="date"> Sat Jul 8, 2017 </h4>
+        <h5 id="wc"> 100 Words </h5>
+        <h5 id="readtime"> Read in about 1 Min </h5>
+    </section>
+    <ul id="categories">
+        
+    </ul>
+    <ul id="tags">
+        
+        <li> <a href="http://forrestliu.github.io//tags/architecture">architecture</a> </li>
+        
+        <li> <a href="http://forrestliu.github.io//tags/server">server</a> </li>
+        
+        <li> <a href="http://forrestliu.github.io//tags/socket">socket</a> </li>
+        
+        <li> <a href="http://forrestliu.github.io//tags/develop">develop</a> </li>
+        
+    </ul>
+</div>
+
+<div>
+    <section id="prev">
+        &nbsp;
+    </section>
+    <section id="next">
+        &nbsp;<a class="next" href="http://forrestliu.github.io/life/about/">About Yameng Liu <i class="icon-arrow-right"></i></a>
+    </section>
+</div>
+
+<div>
+    <section id="author">
+        <h4>About the Author</h4>
+        <p>
+            <a href="https://forrestliu.github.io/about/">Yameng Liu</a> is a software engineer living in Shenzhen, he used to worked at Tencent for more than 9 years, developing computer games, after that, switch to the fintech area. He has recently been keen on blockchain, micro-service, and other Fintech research. He also loves travelling, looking at his amazing travel photos from <a href=https://tuchong.com/2314826/>Yameng's tuchong homepage</a>. 
+        </p>
+    </section>
+
+</div>
+</aside>
+
+<meta itemprop="wordCount" content="8">
+<meta itemprop="datePublished" content="2017-07-08">
+<meta itemprop="url" content="http://forrestliu.github.io/talk/arch-seris-001/">
+
+
+<aside id=comments>
+    <div><h2> Comments </h2></div>
+    
+	<div id="uyan_frame"></div>
+	<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2138129"></script>
+	
+</aside>
 
 <footer>
   <div>
