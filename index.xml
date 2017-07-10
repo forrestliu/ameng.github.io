@@ -27,6 +27,21 @@
     </item>
     
     <item>
+      <title>架构培训系列001-高性能服务开发</title>
+      <link>http://forrestliu.github.io/talk/arch-seris-002/</link>
+      <pubDate>Sat, 08 Jul 2017 22:08:25 +0800</pubDate>
+      
+      <guid>http://forrestliu.github.io/talk/arch-seris-002/</guid>
+      <description>架构培训系列课件，总共有四课：
+第一课，高性能服务开发
+第二课，服务框架及分布式原理
+第三课，云计算及微服务架构
+第四课，分组讨论
+以下为第二课内容：
+ ​ 《服务框架及分布式原理》</description>
+    </item>
+    
+    <item>
       <title>About Yameng Liu</title>
       <link>http://forrestliu.github.io/life/about/</link>
       <pubDate>Sat, 18 Mar 2017 20:53:54 +0800</pubDate>
