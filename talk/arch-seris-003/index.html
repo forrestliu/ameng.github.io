@@ -16,13 +16,13 @@
  
 <meta property="og:type" content="article"/>
 <meta property="og:description" content=""/>
-<meta property="og:title" content="架构培训系列002-服务框架及分布式原理 : forrestliu.github.io"/>
+<meta property="og:title" content="架构培训系列003-云计算及微服务架构 : forrestliu.github.io"/>
 <meta property="og:site_name" content="forrestliu is Yameng Liu"/>
 <meta property="og:image" content="" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="" />
 <meta property="og:image:height" content="" />
-<meta property="og:url" content="http://forrestliu.github.io/talk/arch-seris-002/">
+<meta property="og:url" content="http://forrestliu.github.io/talk/arch-seris-003/">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2017-07-10"/>
 <meta property="article:modified_time" content="2017-07-10"/>
@@ -40,15 +40,15 @@
 <meta name="twitter:card" content="summary">
 
 <meta name="twitter:site" content="@ameng20001">
-<meta name="twitter:title" content="架构培训系列002-服务框架及分布式原理 : forrestliu.github.io">
+<meta name="twitter:title" content="架构培训系列003-云计算及微服务架构 : forrestliu.github.io">
 <meta name="twitter:creator" content="@ameng20001">
 <meta name="twitter:description" content="">
 <meta name="twitter:image:src" content="">
 <meta name="twitter:domain" content="forrestliu.github.io">
 
     <base href="http://forrestliu.github.io/">
-    <title> 架构培训系列002-服务框架及分布式原理 - Yameng Liu </title>
-    <link rel="canonical" href="http://forrestliu.github.io/talk/arch-seris-002/">
+    <title> 架构培训系列003-云计算及微服务架构 - Yameng Liu </title>
+    <link rel="canonical" href="http://forrestliu.github.io/talk/arch-seris-003/">
 
     
 
@@ -132,12 +132,12 @@
                 <span class="title"> share </span>
                 <div class="dropdown share">
                     <ul class="social">
-                      <li> <a href="https://twitter.com/intent/tweet?status=%e6%9e%b6%e6%9e%84%e5%9f%b9%e8%ae%ad%e7%b3%bb%e5%88%97002-%e6%9c%8d%e5%8a%a1%e6%a1%86%e6%9e%b6%e5%8f%8a%e5%88%86%e5%b8%83%e5%bc%8f%e5%8e%9f%e7%90%86-http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-002%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
-                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-002%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
-                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-002%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
-                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-002%2f&title=%e6%9e%b6%e6%9e%84%e5%9f%b9%e8%ae%ad%e7%b3%bb%e5%88%97002-%e6%9c%8d%e5%8a%a1%e6%a1%86%e6%9e%b6%e5%8f%8a%e5%88%86%e5%b8%83%e5%bc%8f%e5%8e%9f%e7%90%86&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
-                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-002%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
-                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-002%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
+                      <li> <a href="https://twitter.com/intent/tweet?status=%e6%9e%b6%e6%9e%84%e5%9f%b9%e8%ae%ad%e7%b3%bb%e5%88%97003-%e4%ba%91%e8%ae%a1%e7%ae%97%e5%8f%8a%e5%be%ae%e6%9c%8d%e5%8a%a1%e6%9e%b6%e6%9e%84-http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-003%2f" target="_blank" title="Follow me on Twitter" class="twitter"><span class="icon icon-twitter"></span>Twitter</a> </li>
+                        <li> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-003%2f" target="_blank" title="Join me on Facebook" class="facebook"><span class="icon icon-facebook"></span>Facebook</a> </li>
+                        <li> <a href="https://plus.google.com/share?url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-003%2f" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a> </li>
+                        <li> <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-003%2f&title=%e6%9e%b6%e6%9e%84%e5%9f%b9%e8%ae%ad%e7%b3%bb%e5%88%97003-%e4%ba%91%e8%ae%a1%e7%ae%97%e5%8f%8a%e5%be%ae%e6%9c%8d%e5%8a%a1%e6%9e%b6%e6%9e%84&source=spf13" target="_blank" title="LinkedIn" class="linkedin"><span class="icon icon-linkedin"></span>LinkedIn</a> </li>
+                        <li> <a href="http://del.icio.us/post?url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-003%2f" target="_blank" title="Delicious" class="delicious"><span class="icon icon-delicious"></span>Delicious</a> </li>
+                        <li> <a href="http://www.reddit.com/submit?url=http%3a%2f%2fforrestliu.github.io%2ftalk%2farch-seris-003%2f" target="_blank" title="Reddit" class="reddit"><span class="icon icon-reddit"></span>Reddit</a> </li>
                     </ul>
                     <span class="subcount">sharing is caring</span>
                 </div>s
@@ -164,7 +164,7 @@
 
 
 <section id="main">
-  <h1 itemprop="name" id="title">架构培训系列002-服务框架及分布式原理</h1>
+  <h1 itemprop="name" id="title">架构培训系列003-云计算及微服务架构</h1>
   <div>
         <article itemprop="articleBody" id="content">
            <blockquote>
@@ -178,47 +178,48 @@
 
 <p>第四课，分组讨论</p>
 
-<p>以下为第二课内容：</p>
+<p>以下为第三课内容：</p>
 </blockquote>
 
-<p>​                        《服务框架及分布式原理》</p>
+<p>​                        《云计算及微服务架构》</p>
 
-<p><img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8701.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8702.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8703.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8704.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8705.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8706.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8707.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8708.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8709.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8710.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8711.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8712.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8713.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8714.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8715.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8716.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8717.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8718.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8719.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8720.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8721.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8722.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8723.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8724.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8725.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8726.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8727.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8728.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8729.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8730.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8731.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8732.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8733.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8734.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8735.jpg" alt="服务框架及分布式原理" />
-<img src="http://osrjkumus.bkt.clouddn.com/arch-002/%E5%B9%BB%E7%81%AF%E7%89%8736.jpg" alt="服务框架及分布式原理" /></p>
+<p><img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8701.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8702.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8703.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8704.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8705.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8706.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8707.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8708.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8709.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8710.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8711.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8712.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8713.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8714.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8715.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8716.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8717.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8718.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8719.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8720.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8721.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8722.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8723.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8724.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8725.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8726.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8727.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8728.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8729.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8730.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8731.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8732.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8733.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8734.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8735.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8736.jpg" alt="云计算及微服务架构" />
+<img src="http://osrjkumus.bkt.clouddn.com/arch-003/%E5%B9%BB%E7%81%AF%E7%89%8737.jpg" alt="云计算及微服务架构" /></p>
 
         </article>
   </div>
@@ -252,10 +253,10 @@
 
 <div>
     <section id="prev">
-        &nbsp;<a class="previous" href="http://forrestliu.github.io/talk/arch-seris-003/"><i class="icon-arrow-left"></i> 架构培训系列003-云计算及微服务架构</a><br>
+        &nbsp;
     </section>
     <section id="next">
-        &nbsp;<a class="next" href="http://forrestliu.github.io/talk/arch-seris-001/">架构培训系列001-高性能服务开发 <i class="icon-arrow-right"></i></a>
+        &nbsp;<a class="next" href="http://forrestliu.github.io/talk/arch-seris-002/">架构培训系列002-服务框架及分布式原理 <i class="icon-arrow-right"></i></a>
     </section>
 </div>
 
@@ -272,7 +273,7 @@
 
 <meta itemprop="wordCount" content="8">
 <meta itemprop="datePublished" content="2017-07-10">
-<meta itemprop="url" content="http://forrestliu.github.io/talk/arch-seris-002/">
+<meta itemprop="url" content="http://forrestliu.github.io/talk/arch-seris-003/">
 
 
 <aside id=comments>
