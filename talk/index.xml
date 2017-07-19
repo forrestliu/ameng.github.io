@@ -6,10 +6,20 @@
     <description>Recent content in Talks on AMA学院（LYM‘s personal academy）</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jul 2017 10:25:25 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jul 2017 20:05:25 +0800</lastBuildDate>
     
 	<atom:link href="http://forrestliu.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>初创互联网X公司技术架构规划【DOP】</title>
+      <link>http://forrestliu.github.io/talk/dop/</link>
+      <pubDate>Wed, 19 Jul 2017 20:05:25 +0800</pubDate>
+      
+      <guid>http://forrestliu.github.io/talk/dop/</guid>
+      <description>当前众多初创公司的技术架构规划一上来便言必云计算、大数据、Devops、区块链、人工智能等，好像少了一样便不是一家合格的创业公司。诚然，这些技术是当前的热点，也是很多技术寡头宣传自身的重点。然而，初创互联网X类公司由于所处的阶段特殊性，并不适合去盲目跟风。正如一句话说的很好，不必样样都学google，因为你不是google。根据大多数互联网X公司的阶段特点，梳理出了一个适合的技术架构规划，分享给大家，仅供参考。
+ ​ 《初创互联网X公司技术架构规划&amp;ndash;DOP》</description>
+    </item>
     
     <item>
       <title>架构培训系列004-分组讨论环节</title>
